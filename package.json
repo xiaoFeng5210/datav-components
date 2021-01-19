@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
-    "@umijs/preset-react": "1.x",
+    "@umijs/preset-react": "^1.7.13",
+    "echarts": "^5.0.1",
     "umi": "^3.3.5"
   },
   "devDependencies": {
