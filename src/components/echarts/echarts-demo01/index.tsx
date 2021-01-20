@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import styles from './index.less';
-const echarts = require('echarts');
 import setOptions from '@/components/echarts/echarts-demo01/setOptions';
+
+const echarts = require('echarts');
 
 export default (props: any) => {
   useEffect(() => {

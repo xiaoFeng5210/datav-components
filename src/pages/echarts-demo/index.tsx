@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './index.less';
 import EChartsDemo from '@/components/echarts/echarts-demo01';
+import EChartsDemo02 from '@/components/echarts/echarts-demo02';
 import { Button } from 'antd';
 
 export default () => {
@@ -30,6 +31,7 @@ export default () => {
           </Button>
         </div>
       </div>
+      <EChartsDemo02 />
     </div>
   );
 };
